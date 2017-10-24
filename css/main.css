@@ -1,5 +1,5 @@
 /* setear mi css*/ 
-body {
+* {
     box-sizing: border-box;
     color: #303030;
     font-family: 'Raleway', sans-serif;
@@ -35,4 +35,43 @@ nav{
 }
 .box-header{
     display: inline-block;
+}
+.logo-square {
+    width: 100px;
+    height: 100px;
+}
+section{
+    text-align: center;
+}
+div{
+    box-sizing: inherit;
+    display:inline-block;
+    padding: 2px;
+    width:33%;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    font-size: 40px;
+    transition: 1s;
+}
+[class^="icon-"]:hover, [class*=" icon-"]:hover{
+    color:#db964a;
+}
+footer{
+
+    background-color: #303030;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+li a:hover{
+    color: #db964a;
+}
+
+button{
+    margin-top: 10px;
+    border:0px;
+    padding: 10px;
+    background-color: #db969a;
+    border-radius: 20px;
 }
